@@ -1,0 +1,102 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/DarkGreen"
+    android:padding="5dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/Tan"
+        android:layout_gravity="center"
+        android:layout_marginBottom="40dp"
+        android:gravity="center"
+        android:text="@string/expert"
+        android:textColor="#FFA500"
+        android:textSize="25sp" />
+    
+     <EditText
+        android:id="@+id/usernameText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:hint="@string/username"
+        android:inputType="text"
+        android:singleLine="true"
+        android:textColor="@color/White" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:hint="@string/email"
+        android:inputType="text"
+        android:singleLine="true"
+        android:textColor="@color/White" />
+
+    <EditText
+        android:id="@+id/emailConfirm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:hint="@string/confirmEmail"
+        android:inputType="text"
+        android:singleLine="true"
+        android:textColor="@color/White" />
+
+    <EditText
+        android:id="@+id/passwordText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        android:singleLine="true"
+        android:textColor="@color/White" />
+
+    <EditText
+        android:id="@+id/passwordConfirmText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:hint="@string/confirmPassword"
+        android:inputType="textPassword"
+        android:singleLine="true"
+        android:textColor="@color/White" />
+    
+     <EditText
+        android:id="@+id/location"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:hint="@string/location"
+        android:inputType="text"
+        android:singleLine="true"
+        android:textColor="@color/White" />
+     
+     <LinearLayout 
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:orientation="horizontal">
+         
+         <Button 
+             android:id="@+id/don"
+             android:layout_height="wrap_content"
+             android:layout_width="wrap_content"
+             android:text="Donate"
+             android:background="#FFA500"
+             android:layout_marginRight="15dp"/>
+         
+         <Button 
+             android:id="@+id/reg"
+             android:layout_height="wrap_content"
+             android:layout_width="wrap_content"
+             android:text="Register"
+             android:background="#FFA500"/>
+         
+         
+     </LinearLayout>
+
+</LinearLayout>

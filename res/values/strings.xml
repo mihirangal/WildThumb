@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">WildThumb</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="drawer_open">Slider Menu Opened</string>
+    <string name="drawer_close">Slider Menu Closed</string>
+    
+    <!-- Nav Drawer Menu Items -->
+    <string-array name="nav_drawer_items">
+        <item >Search</item>
+        <item >Topics</item>
+        <item >Communities</item>
+        <item >Weather</item>
+
+    </string-array>
+     
+    <!-- Nav Drawer List Item Icons -->
+    <!-- Keep them in order as the titles are in -->
+    <array name="nav_drawer_icons">
+        <item>@drawable/ic_home</item>
+        <item>@drawable/ic_people</item>
+        <item>@drawable/ic_communities</item>
+        <item>@drawable/ic_photos</item>
+    </array>
+        <!-- Splash -->
+    <string name="splashScreenBackground">splashscreen background</string>
+
+    <!-- Expert Registration -->
+    <string name="title_activity_register">RegisterActivity</string>
+    <string name="email">Email</string>
+    <string name="confirmEmail">Confirm Email</string>
+    <string name="password">Password</string>
+    <string name="confirmPassword">Confirm Password</string>
+    <string name="username">Enter a username</string>
+    <string name="expert">Welcome Gardening Expert</string>
+    <string name="location">Enter 5 digit Zip-Code</string>
+    <string name="title_activity_map">MapActivity</string>
+    <!-- Content Description -->
+    <string name="desc_list_item_icon">Item Icon</string>
+    
+
+</resources>
